@@ -1,9 +1,9 @@
 {
   "name": "ForMyLove",
   "version": "0.1.0",
-  "description": "宝贝情人节快乐",
+  "description": "Hello",
   "main": "gulpfile.js",
-  "author": "WangJohn",
+  "author": "Thanh Pham",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wongjohn/for-my-love"
+    "url": "phamctok.github.io"
   },
   "keywords": [
     "gulp",
