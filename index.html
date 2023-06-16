@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=100%, initial-scale=1">
-        <title>Tille</title>
+        <title>Dành cho em/title>
         <link href="css/main.min.css" rel="stylesheet" type="text/css">
         <link rel="Shortcut Icon" href="heart.ico"/>
         <link rel="preload" href="img/tho.jpg" as="image">
@@ -15,7 +15,7 @@
     <body>
         <div id="mobile" :class="{ 'has-prompt': hasPrompt }">
             <div id="mobile-head">
-                <div id="mobile-head-title">Gui em</div>
+                <div id="mobile-head-title">Gửi em</div>
             </div>
             <div id="mobile-body">
                 <div id="mobile-body-bg"></div>
@@ -61,7 +61,7 @@
                     v-on:click="togglePrompt(true)"
                     :class="{'clickable': !isTyping }">
                     <span v-if="!isTyping">Click vào đây đi em </span>
-                    <span v-if="isTyping">Anh yêu em</span>
+                    <span v-if="isTyping">Hết rồi và anh yêu em</span>
                 </div>
             </div>
             <div id="prompt-bg" v-on:click="togglePrompt(false)"></div>
